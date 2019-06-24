@@ -28,7 +28,10 @@
     <Compile Include="source\hitbtc\wss.py" />
     <Compile Include="source\hitbtc\__init__.py" />
     <Compile Include="source\HitBTC_Bot_py.py" />
-    <Compile Include="source\test.py" />
+    <Compile Include="source\indicators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\temp.py" />
     <Compile Include="source\trading\trading.py" />
     <Compile Include="source\trading\__init__.py" />
   </ItemGroup>

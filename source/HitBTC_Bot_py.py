@@ -1,7 +1,7 @@
-import test as test
+import temp as temp
 
 def main():
-	test
+	temp
 
 if __name__ == "__main__":
-    main()
+	main()
