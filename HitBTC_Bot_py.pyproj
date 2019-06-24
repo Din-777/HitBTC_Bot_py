@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fa5bcc02-02a7-44c1-8047-34d2ef96fd9f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HitBTC_Bot_py.py</StartupFile>
+    <StartupFile>source\HitBTC_Bot_py.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,15 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="hitbtc\client.py" />
-    <Compile Include="hitbtc\connector.py" />
-    <Compile Include="hitbtc\utils.py" />
-    <Compile Include="hitbtc\wss.py" />
-    <Compile Include="hitbtc\__init__.py" />
-    <Compile Include="HitBTC_Bot_py.py" />
-    <Compile Include="test.py" />
-    <Compile Include="trading\trading.py" />
-    <Compile Include="trading\__init__.py" />
+    <Compile Include="source\hitbtc\client.py" />
+    <Compile Include="source\hitbtc\connector.py" />
+    <Compile Include="source\hitbtc\utils.py" />
+    <Compile Include="source\hitbtc\wss.py" />
+    <Compile Include="source\hitbtc\__init__.py" />
+    <Compile Include="source\HitBTC_Bot_py.py" />
+    <Compile Include="source\test.py" />
+    <Compile Include="source\trading\trading.py" />
+    <Compile Include="source\trading\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -44,19 +44,20 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="hitbtc\" />
-    <Folder Include="hitbtc\__pycache__\" />
-    <Folder Include="trading\" />
-    <Folder Include="trading\__pycache__\" />
+    <Folder Include="source\hitbtc\" />
+    <Folder Include="source\hitbtc\__pycache__\" />
+    <Folder Include="source\" />
+    <Folder Include="source\trading\" />
+    <Folder Include="source\trading\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="hitbtc\__pycache__\client.cpython-37.pyc" />
-    <Content Include="hitbtc\__pycache__\connector.cpython-37.pyc" />
-    <Content Include="hitbtc\__pycache__\utils.cpython-37.pyc" />
-    <Content Include="hitbtc\__pycache__\wss.cpython-37.pyc" />
-    <Content Include="hitbtc\__pycache__\__init__.cpython-37.pyc" />
-    <Content Include="trading\__pycache__\trading.cpython-37.pyc" />
-    <Content Include="trading\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="source\hitbtc\__pycache__\client.cpython-37.pyc" />
+    <Content Include="source\hitbtc\__pycache__\connector.cpython-37.pyc" />
+    <Content Include="source\hitbtc\__pycache__\utils.cpython-37.pyc" />
+    <Content Include="source\hitbtc\__pycache__\wss.cpython-37.pyc" />
+    <Content Include="source\hitbtc\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="source\trading\__pycache__\trading.cpython-37.pyc" />
+    <Content Include="source\trading\__pycache__\__init__.cpython-37.pyc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
