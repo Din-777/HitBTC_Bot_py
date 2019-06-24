@@ -3,7 +3,6 @@ import queue
 import pandas as pd
 from hitbtc import HitBTC
 from trading.trading import Trading
-from dateutil import tz
 
 tzLocal = tz.tzlocal()
 pKey = 'YGzq3GQP9vIybW8CcT6+e3pBqX8Tgbr6'
